@@ -14,6 +14,3 @@
 &left_encoder {
     status = "okay";
 };
-&trackball {
-    idle-timeout-ms = <3000>;
-};
