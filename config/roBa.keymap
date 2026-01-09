@@ -78,7 +78,7 @@
         KIGOU {
             bindings = <
 &kp EQUAL   &kt SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION  &kp QUESTION          &kp AT_SIGN
-&kp PERIOD  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PLUS      &trans         &trans          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON        &kp SEMICOLON         &kp PIPE
+&kp PERIOD  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PLUS      &trans         &kp TILDE       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON        &kp SEMICOLON         &kp PIPE
 &trans      &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp ASTERISK  &kp SLASH      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH        &kp NON_US_BACKSLASH  &kp EQUAL
 &trans      &trans           &kp PERIOD            &trans                 &trans        &trans         &trans          &trans                                                                              &trans
             >;
