@@ -64,7 +64,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        FUNCTION {
+        NUM {
             bindings = <
 &kp EQUAL        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                            &kp F9  &kp F10  &kp F11  &kp F12  &trans
 &kp PERIOD       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &trans         &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
@@ -73,7 +73,7 @@
             >;
         };
 
-        NUM {
+        KIGOU {
             bindings = <
 &kp EQUAL   &kt SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
 &kp PERIOD  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PLUS      &trans         &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
