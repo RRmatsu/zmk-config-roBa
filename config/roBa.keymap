@@ -8,10 +8,6 @@
     quick-tap-ms = <0>;
 };
 
-&sl {
-    release-after-ms = <3000>;
-};
-
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
@@ -68,10 +64,10 @@
 
         FUNCTION {
             bindings = <
-&kp EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans        &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans     &trans      &trans   &trans                          &kp F12
+&kp EQUAL     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                      &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&kp ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &trans      &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&kp SLASH     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans      &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp F5
+&trans        &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans     &trans      &trans  &trans                             &trans
             >;
         };
 
