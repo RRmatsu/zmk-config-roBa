@@ -73,10 +73,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                              &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans  &trans  &trans  &trans  &trans  &trans      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&trans  &trans  &trans  &trans  &trans  &trans      &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans  &trans  &trans  &trans  &trans  &trans      &trans          &trans                                                                     &kp PIPE
+&kp EQUAL     &kt SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&kp ASTERISK  &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp PLUS   &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
+&kp SLASH     &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &trans     &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
+&trans        &trans           &kp PERIOD            &trans                 &trans     &trans      &trans  &trans                                                       &trans
             >;
         };
 
