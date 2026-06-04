@@ -155,10 +155,10 @@
         };
     };
     sensors {
-    encoder_left: encoder_left {
-        compatible = "zmk,encoder";
-        label = "LEFT_ENCODER";
-        bindings = <&mkp WH_UP>, <&mkp WH_DOWN>;
+        encoder_left: encoder_left {
+            compatible = "zmk,encoder";
+            label = "LEFT_ENCODER";
+            bindings = <&mkp WH_UP>, <&mkp WH_DOWN>;
+        };
     };
-};
 };
