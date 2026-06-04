@@ -158,7 +158,7 @@
         encoder_left: encoder_left {
             compatible = "zmk,encoder";
             label = "LEFT_ENCODER";
-            bindings = <&mkp WH_UP>, <&mkp WH_DOWN>;
+            bindings = <&mkp WH_UP &mkp WH_DOWN>;
         };
     };
 };
