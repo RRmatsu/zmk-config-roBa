@@ -154,4 +154,12 @@
             >;
         };
     };
+    sensors {
+        encoder_left: encoder_left {
+            compatible = "zmk,encoder";
+            label = "LEFT_ENCODER";
+            bindings = <&msc_scroll_up>, <&msc_scroll_down>;
+        };
+    };
+
 };
