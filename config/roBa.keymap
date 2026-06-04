@@ -153,13 +153,14 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
-    };
+     };
 
     sensors {
         encoder_left: encoder_left {
             compatible = "zmk,encoder";
             label = "LEFT_ENCODER";
-            bindings = <&mkp (WH_UP) &mkp (WH_DOWN)>;
+            bindings = <&mkp (WH_UP)>;
+            bindings = <&mkp (WH_DOWN)>;
         };
     };
 };
